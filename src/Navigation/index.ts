@@ -1,13 +1,18 @@
 import { createAppContainer, createSwitchNavigator } from 'react-navigation'
 
 import Home from '../Containers/Home'
+import IdentityScreen from '../Containers/IdentityScreen'
+import NightScreen from '../Containers/NightScreen'
+
 
 const nav = createSwitchNavigator(
   {
-    Home
+    Home,
+    IdentityScreen,
+    NightScreen,
   },
   {
-    initialRouteName: 'Home'
+    initialRouteName: 'NightScreen'
   }
 )
 
